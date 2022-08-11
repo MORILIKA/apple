@@ -75,8 +75,10 @@
       // this.lineInit() 
 
       //本地
+      console.log('12345')
       window.localStorage.setItem("userToken", "123");
       this.pageQuery()
+      
     },
    
   }
